@@ -1,0 +1,133 @@
+html, body {
+    height: 92%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+section#inputs {
+
+    margin: 10px;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #E8E8E8 !important;
+}
+
+header {
+    background-color: #6a994e;
+    height: 60px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Varela Round", arial !important;    
+    text-align: center;
+    padding-top: 10px;
+    color: #E8E8E8;
+}
+
+#web {
+    display: flex;
+    height: 100%;
+}
+
+#InfoImages {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+#Info, #images {
+    margin: 10px;
+    flex: 1; 
+}
+
+#inputs {
+    width: 250px;
+}
+
+#Info, #images, #inputs {
+    background-color: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border-color: rgb(201, 197, 197);
+    border-style: solid;
+
+}
+
+#Info h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: "Varela Round";
+}
+
+#Info p {
+    margin-left: 10px;
+}
+
+
+nav {
+    padding-top: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%; 
+}
+
+ul {
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+}
+
+li {
+    list-style-type: none;
+    text-align: center; 
+    flex: 1; 
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from the parent element (usually black) */
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease
+}
+
+button:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    font-size: 1.1em;
+}
+
+
+#images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E8E8E8 !important;
+    border: none;
+    box-shadow: none;
+}
+
+#images img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#inputs button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
