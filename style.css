@@ -10,7 +10,6 @@ html, body {
 }
 
 section#inputs {
-
     margin: 10px;
 }
 
@@ -131,3 +130,63 @@ button:hover {
     border: none;
     border-radius: 10px;
 }
+
+
+.modal-title {
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for better readability on smaller screens */
+        width: 100%;
+    }
+
+    html {
+        text-align: center;
+    }
+
+    header {
+        width: 100%; /* Make the header fill the entire width of the screen */
+    }
+
+    #web {
+        flex-direction: column;
+        align-items: center; /* Center the sections horizontally */
+    }
+
+    #Info, #images, #inputs {
+        width: 80%; /* Adjust the width of the elements as needed */
+        margin: 10px auto; /* Center the elements horizontally and add some margin */
+    }
+
+    #inputs {
+        width: 100%; 
+    }
+
+    #inputs nav {
+        padding: 0;
+        margin: -0px;
+
+    }
+
+    #inputs nav ul {
+        flex-direction: row;
+    }
+
+
+    section#inputs {
+        margin: 0px;
+    }
+    
+
+    #images {
+        flex-direction: column;
+    }
+
+    #images img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
