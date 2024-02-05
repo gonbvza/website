@@ -166,7 +166,7 @@ button:hover {
 
     #inputs nav {
         padding: 0;
-        margin: -0px;
+        margin: 20px;
 
     }
 
@@ -176,7 +176,8 @@ button:hover {
 
 
     section#inputs {
-        margin: 0px;
+        margin-top: 10px;
+
     }
     
 
